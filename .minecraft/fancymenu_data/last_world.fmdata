@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Program Files/MultiMC/instances/PelicanMC-beta/.minecraft/saves/temp
+}
+
