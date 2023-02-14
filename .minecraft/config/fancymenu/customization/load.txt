@@ -1,0 +1,85 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = mods/menu/load_panorama.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 80
+  width = 480
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = a9047bff-e245-4503-a464-04f826361f521676024351737
+  y = 196
+  height = 120
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 42d83513-ac2f-491e-a600-315ba1a9be2a1676024351737
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 80
+  width = 480
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 5735514f-ea42-40d9-8d7b-8cfca113ed1d1676024351737
+  y = 421
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 1.0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 9","decimal":"false"}}
+  progress_for_element_orientation = false
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} - {"placeholder":"guiwidth"} *0.5 + 75 ","decimal":"false"}}
+  background_color = #78a963
+  x = 0
+  width = 485
+  bar_color = #39502f
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = c4c51980-7a7b-487d-89c4-85b0d4461e011676024387519
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = false
+  direction = right
+  height = 13
+}
+
+customization {
+  path = mods/menu/logo.png
+  orientation = top-left
+  x = 0
+  width = 542
+  action = addtexture
+  actionid = 9ed562ba-5894-464b-80a2-558410497eb31676143709673
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 15","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.20","decimal":"false"}}
+  height = 181
+}
+
