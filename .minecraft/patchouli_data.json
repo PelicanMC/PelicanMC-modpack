@@ -1,0 +1,15 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_first_launch/basic_materials",
+        "ad_astra:the_moon/oxygen_distributor",
+        "ad_astra:the_first_launch/your_first_rocket"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

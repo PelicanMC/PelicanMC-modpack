@@ -16,7 +16,7 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'true';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[loading]
@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'PelicanMC';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 

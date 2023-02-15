@@ -314,6 +314,25 @@ customization {
 }
 
 customization {
+  orientation = top-left
+  restartbackgroundanimations = false
+  buttonaction = downloadfile
+  vr:showif:oswindows = false
+  backgroundhovered = mods/menu/select_menu_button.png
+  label = Установить обновление
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 21
+  width = 198
+  actionid = a5ac4f27-3ba7-4ac3-b7f5-209725dacc4f1676441990253
+  action = addbutton
+  y = 417
+  backgroundnormal = mods/menu/normal_menu_button.png
+  value = 
+  height = 20
+}
+
+customization {
   slim = false
   auto_skin = false
   scale = 300
@@ -341,5 +360,23 @@ customization {
   parrot_left_shoulder = false
   y = 0
   parrot = false
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 5","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 7","decimal":"false"}}
+  bouncing = true
+  vanilla-like = false
+  x = 0
+  actionid = 981e2a62-763f-4582-9070-7b755357a0b81676442107847
+  action = addsplash
+  y = 0
+  text = Доступно обновление
 }
 

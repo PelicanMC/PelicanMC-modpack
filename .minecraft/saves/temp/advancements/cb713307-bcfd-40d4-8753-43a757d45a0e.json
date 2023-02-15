@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "rainforest": "2023-02-15 12:26:36 +0500"
+    },
+    "done": true
+  },
   "mcwpaths:recipes/cobbled_deepslate": {
     "criteria": {
       "has_cbl_deepslate": "2023-02-14 22:55:55 +0500"
@@ -272,6 +278,12 @@
   "mcwpaths:recipes/deepslate": {
     "criteria": {
       "has_deepslate": "2023-02-14 22:55:55 +0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-02-14 23:26:00 +0500"
     },
     "done": true
   },
@@ -359,6 +371,12 @@
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "rainforest": "2023-02-15 12:26:36 +0500"
+    },
+    "done": false
+  },
   "mcwroofs:recipes/acacia": {
     "criteria": {
       "has_planks": "2023-02-14 22:55:55 +0500"
@@ -369,8 +387,10 @@
     "criteria": {
       "minecraft:wooded_badlands": "2023-02-14 22:59:54 +0500",
       "minecraft:badlands": "2023-02-14 22:59:51 +0500",
+      "minecraft:sparse_jungle": "2023-02-15 12:26:33 +0500",
       "minecraft:river": "2023-02-14 22:56:30 +0500",
       "minecraft:forest": "2023-02-14 22:56:00 +0500",
+      "minecraft:jungle": "2023-02-15 12:11:09 +0500",
       "minecraft:plains": "2023-02-14 22:56:33 +0500"
     },
     "done": false
@@ -600,6 +620,12 @@
   "mcwroofs:recipes/sandstone": {
     "criteria": {
       "has_planks": "2023-02-14 22:55:55 +0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-02-15 12:32:12 +0500"
     },
     "done": true
   },
