@@ -14,3 +14,4 @@
 /natives
 /instance.cfg
 instance.cfg
+*.disabled
