@@ -1,24 +1,5 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {
-    "botania:lexicon": {
-      "viewedEntries": [
-        "botania:basics/welcome",
-        "botania:basics/lexicon",
-        "botania:basics/apothecary",
-        "botania:basics/flowers",
-        "botania:basics/pure_daisy"
-      ],
-      "bookmarks": [],
-      "completedManualQuests": []
-    },
-    "ars_nouveau:worn_notebook": {
-      "viewedEntries": [
-        "ars_nouveau:getting_started/spell_casting"
-      ],
-      "bookmarks": [],
-      "completedManualQuests": []
-    }
-  }
+  "bookData": {}
 }
