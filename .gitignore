@@ -16,5 +16,5 @@
 instance.cfg
 *.disabled
 instance.cfg
-.minecraft/brb.pins
 .minecraft/screenshots
+.minecraft/brb.pins
