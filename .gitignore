@@ -16,3 +16,4 @@
 instance.cfg
 *.disabled
 instance.cfg
+.minecraft/screenshots
